@@ -1,0 +1,7 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+console.log("KEY:", process.env.ANTHROPIC_API_KEY);
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<React.StrictMode><App /></React.StrictMode>);
